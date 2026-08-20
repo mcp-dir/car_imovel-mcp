@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/car_imovel-mcp",
+  "title": "Cadastro Ambiental Rural: Imóvel",
+  "description": "Cadastro Ambiental Rural: Imóvel, official-source lookup. Platform-hosted, pay per query with prepai",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/car_imovel-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_car_imovel"
+    }
+  ]
+}
